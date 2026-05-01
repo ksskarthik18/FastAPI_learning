@@ -1,11 +1,11 @@
 from fastapi import FastAPI
 
 from app.blog.routers import authentication
-from .routers import blog
+from blog.routers import blog
 
 
-from .database import engine
-from .import models
+from blog.database import engine
+from blog import models
 # from fastapi import Depends,status,Response,HTTPException
 # from . import schemas
 # from .database import get_db
@@ -13,7 +13,7 @@ from .import models
 # from typing import List
 # from .hashing import Hash
 
-from .routers import user
+from blog.routers import user
 
 app = FastAPI()
 
