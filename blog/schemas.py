@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 from typing import List,Optional
 
 class BlogBase(BaseModel):
@@ -6,8 +6,7 @@ class BlogBase(BaseModel):
     body : str
     user_id : int
 class Blog(BlogBase):
-    class Config():
-        orm_mode = True
+    model_config = ConfigDict(from_attributes=True)
 
 
 class ShowUser(BaseModel):
@@ -15,16 +14,14 @@ class ShowUser(BaseModel):
     name : str
     email : str
     blogs : List[Blog] =[]
-    class Config():
-        orm_mode = True
+    model_config = ConfigDict(from_attributes=True)
 
 
 class ShowBlog(BaseModel):
     title : str
     body : str
     creator : ShowUser
-    class Config():
-        orm_mode = True
+    model_config = ConfigDict(from_attributes=True)
     
 class User(BaseModel):
     name: str
