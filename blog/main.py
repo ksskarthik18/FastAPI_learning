@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from app.blog.routers import authentication
+from .routers import authentication
 from .routers import blog
 
 
