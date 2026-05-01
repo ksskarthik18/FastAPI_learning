@@ -4,9 +4,9 @@ A RESTful Blog API built with **FastAPI**, featuring JWT authentication, CRUD op
 
 ## 🌐 Live Demo
 
-**API URL:** [https://fastapi-learning-k0ev.onrender.com](https://fastapi-learning-k0cv.onrender.com)
+**API URL:** [https://fastapi-learning-k0cv.onrender.com](https://fastapi-learning-k0cv.onrender.com)
 
-**Swagger Docs:** [https://fastapi-learning-k0ev.onrender.com/docs](https://fastapi-learning-k0cv.onrender.com/docs)
+**Swagger Docs:** [https://fastapi-learning-k0cv.onrender.com/docs](https://fastapi-learning-k0cv.onrender.com/docs)
 
 ## ✨ Features
 
