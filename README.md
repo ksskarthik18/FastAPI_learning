@@ -97,6 +97,4 @@ uvicorn blog.main:app --reload
 
 Then open [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) to see the Swagger UI.
 
-## 📝 License
 
-This project is for learning purposes, following the [Bitfumes FastAPI Tutorial](https://www.youtube.com/c/Bitfumes).
